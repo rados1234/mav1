@@ -1,5 +1,5 @@
 package org.example;
 
 public enum PizzaSize {
-    small, medium, big
+    small1, medium, big
 }
