@@ -14,7 +14,7 @@ public class Main {
         Order order2 = new Order(new Client("Krysia", "Nadrzeczna 6/3"));
         order2.addItem(new Pizza(PizzaSize.small, "Diaviola"));
         order2.addItem(new Pizza(PizzaSize.medium, "Capriosa"));
-        order2.addItem(new Drink("cola"));
+        order2.addItem(new Drink("rrrcola"));
         orders.add(order2);
         for (Order order : orders) {
             System.out.println(order);
